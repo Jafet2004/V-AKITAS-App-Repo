@@ -26,7 +26,8 @@ namespace V_AKITAS_App
 
         private void button2_Click(object sender, EventArgs e)
         {
-            VersionGratuita version = new VersionGratuita();
+            VersionGratuita version = new VersionGratuita(true);
+
             this.Hide();
             version.Show();
         }

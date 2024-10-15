@@ -17,3 +17,7 @@ C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\obj\Debug\V_AKITA
 C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\obj\Debug\V_AKITAS_App.Gestion_Realizar.resources
 C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\bin\Debug\System.Configuration.ConfigurationManager.dll
 C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\bin\Debug\V-AKITAS App.exe.manifest
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\bin\Debug\V-AKITAS App.application
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\obj\Debug\V-AKITAS App.exe.manifest
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\obj\Debug\V-AKITAS App.application

@@ -14,32 +14,11 @@ namespace V_AKITAS_App
     public partial class VersionGratuita : Form
     {
         SqlConnection conn = new SqlConnection("Data Source=TH3B4R4K\\MSSQLSERVER2022;Initial Catalog=V-AKITAS;Integrated Security=True");
-        public VersionGratuita()
+        public VersionGratuita(bool mostrarAtras)
         {
             InitializeComponent();
-           // CargarTodosLosDatos();
-        }
-
-        private void CargarTodosLosDatos()
-        {
-            string query = "SELECT * FROM [Tipos de Harinas]";
-            SqlDataAdapter da = new SqlDataAdapter(query, conn);
-            DataTable dt = new DataTable();
-
-            try
-            {
-                conn.Open();
-                da.Fill(dt);
-                this.dataGridView1.DataSource = dt;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error al cargar los datos: " + ex.Message);
-            }
-            finally
-            {
-                conn.Close();
-            }
+            // CargarTodosLosDatos();
+            btnAtras.Visible = mostrarAtras;
         }
 
         private void CargarTable()
@@ -74,7 +53,9 @@ namespace V_AKITAS_App
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            Close();
+            Gestion_Realizar GR = new Gestion_Realizar();
+            this.Hide();
+            GR.Show();
         }
 
         private void btnRegresar_Click(object sender, EventArgs e)
@@ -104,6 +85,7 @@ namespace V_AKITAS_App
 
         private void VersionGratuita_Load(object sender, EventArgs e)
         {
+            
 
         }
 
@@ -129,6 +111,12 @@ namespace V_AKITAS_App
         private void txtMuestra_TextChanged(object sender, EventArgs e)
         {
             pnlLista.Visible = true;
+        }
+
+        public bool MostrarAtras
+        {
+            get { return btnAtras.Visible; }
+            set { btnAtras.Visible = value; }
         }
     }
 }

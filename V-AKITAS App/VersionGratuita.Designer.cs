@@ -62,7 +62,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtMuestra = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnSalir = new System.Windows.Forms.Button();
+            this.btnAtras = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnRegresar = new System.Windows.Forms.Button();
             this.btnComentarios = new System.Windows.Forms.Button();
@@ -408,24 +408,25 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre del grano a buscar";
             // 
-            // btnSalir
+            // btnAtras
             // 
-            this.btnSalir.Location = new System.Drawing.Point(611, 463);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(109, 29);
-            this.btnSalir.TabIndex = 17;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            this.btnAtras.Location = new System.Drawing.Point(611, 463);
+            this.btnAtras.Name = "btnAtras";
+            this.btnAtras.Size = new System.Drawing.Size(109, 29);
+            this.btnAtras.TabIndex = 17;
+            this.btnAtras.Text = "Atrás";
+            this.btnAtras.UseVisualStyleBackColor = true;
+            this.btnAtras.Visible = false;
+            this.btnAtras.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(74, 279);
+            this.dataGridView1.Location = new System.Drawing.Point(33, 279);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(771, 133);
+            this.dataGridView1.Size = new System.Drawing.Size(843, 133);
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -472,7 +473,7 @@
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.btnAtras);
             this.Name = "VersionGratuita";
             this.Text = "V-AKITAS VERSIÓN GRATUITA";
             this.Load += new System.EventHandler(this.VersionGratuita_Load);
@@ -506,7 +507,7 @@
         private System.Windows.Forms.TextBox txtProt;
         private System.Windows.Forms.TextBox txtHum;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Button btnAtras;
         private System.Windows.Forms.Button btnRegresar;
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.Button button3;

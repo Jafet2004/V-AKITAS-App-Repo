@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="V-AKITAS App.exe" version="1.0.0.0" publicKeyToken="8cb20d3f72b4581f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="V-AKITAS App" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="V-AKITAS App.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BouncyCastle.Crypto.dll" size="3316968">
+      <assemblyIdentity name="BouncyCastle.Crypto" version="1.9.0.0" publicKeyToken="0E99375E54769942" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5Rch3AZH9IOLGrxZK9lf2MuSRxbopk+D1LlHgh+h+kI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Configuration.ConfigurationManager.dll" size="91824">
+      <assemblyIdentity name="System.Configuration.ConfigurationManager" version="8.0.0.0" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vhBo0a8kBUmvzUjyLPzxWsEMRjBgClNErgJdMFUCmDQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="V-AKITAS App.exe" size="536000">
+      <assemblyIdentity name="V-AKITAS App" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xnqsHu6J7FYZ6hWMPcFfMwPTfX2bMN6u8qAhV2eDusE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="V-AKITAS App.exe.config" size="433">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>o3LPYkUOqYZCDTpZ19JB27Wan3E710t/aIuFP0YTCmA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=TH3B4R4K\MASTER" issuerKeyHash="3e1b6ea2e0aae95581de31e3b9003d092a03044f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>exWL0/caFuyFymHAecXxIiv0ekH7oPL2swjLQCXOz0U=</DigestValue></Reference></SignedInfo><SignatureValue>VYCSSo7J6g+BXTITXi4vFzY2jCOfRJmL3B+a/MPj0u5ruM3cmTyhkqTZJ6qYZ93Rbk114k/zfkHTJaCDS/QikzP40LXgFwMUe8ESzG7jgMmYfelbYOpH6Ku1j0vCiwZLfaI/mcG0fwDo57XURHNyB8uYg25Oxxu61+bYnUa71Iw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wRf3pERg+DAPfgRyAQbcQ73FWpPzrIwAyivo1e75exr6DwcBsj9o+wSOgwQzpC88PTP5sch7vOsqeMYPVhVnxp2aYSQoSBJYiT8O/JH1uR4nbQrUAYkpSgrhuJU2HjiAnF74GIrf4vGmodbacN+WlMwSTVtnpGBiSMnA3W6s5IU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="45cfce2540cb08b3f6f2a0fb417af42b22f1c579c061ca85ec161af7d38b157b" Description="" Url=""><as:assemblyIdentity name="V-AKITAS App.exe" version="1.0.0.0" publicKeyToken="8cb20d3f72b4581f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TH3B4R4K\MASTER</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5RK95lA6XrmW/bcH5ohTDPeNiptNReTCYTS/6tUHw4s=</DigestValue></Reference></SignedInfo><SignatureValue>UFSBKUzka7zbtOlPIf/5UgCjsVNJ1CP19GHrLv0YBuUTNXtYN8xzhHicOKJkskKLpGsS8rK04hQPdhhIueNQGnFz/CzySHFgces6FuZfD19IZ9rV2yXD0E6X9PqBKtz2SVPFiFTcOmQ497jgEtMMCcR7u5+mpOlNyugjo4Ww+6I=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wRf3pERg+DAPfgRyAQbcQ73FWpPzrIwAyivo1e75exr6DwcBsj9o+wSOgwQzpC88PTP5sch7vOsqeMYPVhVnxp2aYSQoSBJYiT8O/JH1uR4nbQrUAYkpSgrhuJU2HjiAnF74GIrf4vGmodbacN+WlMwSTVtnpGBiSMnA3W6s5IU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQZzg0fJXxDa1KIFim9jsnwDANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AVABIADMAQgA0AFIANABLAFwATQBBAFMAVABFAFIwHhcNMjQxMDA3MjIyNzA1WhcNMjUxMDA4MDQyNzA1WjApMScwJQYDVQQDHh4AVABIADMAQgA0AFIANABLAFwATQBBAFMAVABFAFIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMEX96REYPgwD34EcgEG3EO9xVqT86yMAMor6NXu+Xsa+g8HAbI/aPsEjoMEM6QvPD0z+bHIe7zrKnjGD1YVZ8admmEkKEgSWIk/DvyR9bkeJ20K1AGJKUoK4biVNh44gJxe+BiK3+LxpqHW2nDflpTMEk1bZ6RgYkjJwN1urOSFAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAnOgraNAsfOumwRvBNhZVxtatotg39Akr0Cqj0y41CK9GHwqFdPfrB8IFSzmI8gcaB/1KZztN1sDFHJS9Fu1x21H91l39fHsnD1E1VYCkLMj1DTktB/2ThL8Qa7Otrljol+UPNbAQ++nqw02Fur5HAI1Zlrz18AnZmvB2iCdOPNA=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

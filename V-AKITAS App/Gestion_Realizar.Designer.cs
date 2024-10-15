@@ -30,8 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnPlanN = new System.Windows.Forms.Button();
+            this.btnTablaN = new System.Windows.Forms.Button();
             this.btnInfo = new System.Windows.Forms.Button();
             this.btnRegresar = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -56,27 +56,27 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "¿Que gestión deseas hacer?";
             // 
-            // button1
+            // btnPlanN
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(7, 171);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(207, 76);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Plan nutrocional para tu bovino";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnPlanN.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnPlanN.Location = new System.Drawing.Point(7, 171);
+            this.btnPlanN.Name = "btnPlanN";
+            this.btnPlanN.Size = new System.Drawing.Size(207, 76);
+            this.btnPlanN.TabIndex = 2;
+            this.btnPlanN.Text = "Plan nutrocional para tu bovino";
+            this.btnPlanN.UseVisualStyleBackColor = false;
+            this.btnPlanN.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnTablaN
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(258, 171);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(207, 76);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Tabla Nutricional";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnTablaN.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnTablaN.Location = new System.Drawing.Point(258, 171);
+            this.btnTablaN.Name = "btnTablaN";
+            this.btnTablaN.Size = new System.Drawing.Size(207, 76);
+            this.btnTablaN.TabIndex = 3;
+            this.btnTablaN.Text = "Tabla Nutricional";
+            this.btnTablaN.UseVisualStyleBackColor = false;
+            this.btnTablaN.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnInfo
             // 
@@ -107,8 +107,8 @@
             this.ClientSize = new System.Drawing.Size(723, 450);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.btnInfo);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnTablaN);
+            this.Controls.Add(this.btnPlanN);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Gestion_Realizar";
@@ -122,8 +122,8 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnPlanN;
+        private System.Windows.Forms.Button btnTablaN;
         private System.Windows.Forms.Button btnInfo;
         private System.Windows.Forms.Button btnRegresar;
     }

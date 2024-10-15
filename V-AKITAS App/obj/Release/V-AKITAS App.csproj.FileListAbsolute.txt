@@ -1,0 +1,23 @@
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\bin\Release\V-AKITAS App.exe.config
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\bin\Release\V-AKITAS App.exe.manifest
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\bin\Release\V-AKITAS App.application
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\bin\Release\V-AKITAS App.exe
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\bin\Release\V-AKITAS App.pdb
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\bin\Release\System.Configuration.ConfigurationManager.dll
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\bin\Release\BouncyCastle.Crypto.xml
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\bin\Release\System.Configuration.ConfigurationManager.xml
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\obj\Release\V-AKITAS App.csproj.AssemblyReference.cache
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\obj\Release\V_AKITAS_App.Comentarios.resources
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\obj\Release\V_AKITAS_App.Gestion_Realizar.resources
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\obj\Release\V_AKITAS_App.Inicio_de_Sesion.resources
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\obj\Release\V_AKITAS_App.Premiun.resources
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\obj\Release\V_AKITAS_App.Properties.Resources.resources
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\obj\Release\V_AKITAS_App.VersionGratuita.resources
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\obj\Release\V-AKITAS App.csproj.GenerateResource.cache
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\obj\Release\V-AKITAS App.csproj.CoreCompileInputs.cache
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\obj\Release\V-AKITAS App.exe.manifest
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\obj\Release\V-AKITAS App.application
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\obj\Release\V-AKITAS.FBDD4A42.Up2Date
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\obj\Release\V-AKITAS App.exe
+C:\Users\MASTER\Desktop\V-AKITAS APP\V-AKITAS App\V-AKITAS App\obj\Release\V-AKITAS App.pdb

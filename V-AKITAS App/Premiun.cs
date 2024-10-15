@@ -21,10 +21,12 @@ namespace V_AKITAS_App
 
         private void CargarDatos()
         {
-            string query = "SELECT * FROM [Aumento de 1Kg por día] WHERE [Peso (Kg)] = @Peso";
+            string query = "SELECT * FROM ["+ comboBox2.Text + "] WHERE [Peso (Kg)] = @Peso";
             SqlDataAdapter da = new SqlDataAdapter(query, conn);
             da.SelectCommand.Parameters.AddWithValue("@Peso", comboBox1.Text);
+            //da.SelectCommand.Parameters.AddWithValue("@Plan", comboBox2.Text);
             DataTable dt = new DataTable();
+
 
             try
             {
@@ -45,6 +47,26 @@ namespace V_AKITAS_App
         private void btnIngresar_Click(object sender, EventArgs e)
         {
             CargarDatos();
+        }
+
+        private void btnComentarios_Click(object sender, EventArgs e)
+        {
+            Comentarios cm = new Comentarios();
+            cm.Show();
+        }
+
+        private void btnatras_Click(object sender, EventArgs e)
+        {
+            Gestion_Realizar GR = new Gestion_Realizar();
+            this.Hide();
+            GR.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Inicio_de_Sesion IS = new Inicio_de_Sesion();
+            this.Hide();
+            IS.Show();
         }
     }
 }

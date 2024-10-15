@@ -35,25 +35,23 @@ namespace V_AKITAS_App
             string username = txtUsuario.Text.Trim();
             string password = txtPass.Text;
 
-            // Validaciones
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
                 MessageBox.Show("Por favor, ingrese usuario y contraseña.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            // Validar credenciales (hardcoded para este ejemplo)
             if (username == "V-AKITASPremium" && password == "V-AKITAS2024")
             {
-                // Inicio de sesión exitoso
                 MessageBox.Show("Inicio de sesión exitoso.", "Bienvenido", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
-                Gestion_Realizar form = new Gestion_Realizar(); // Cambia al siguiente formulario
-                form.Show();
+
+                // Abre Gestion_Realizar después del inicio de sesión correcto
+                Gestion_Realizar gestion = new Gestion_Realizar();
+                gestion.Show();
             }
             else
             {
-                // Credenciales incorrectas
                 MessageBox.Show("Usuario o contraseña incorrectos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtUsuario.Clear();
                 txtPass.Focus();
@@ -87,9 +85,14 @@ namespace V_AKITAS_App
 
         private void btnVersionGra_Click(object sender, EventArgs e)
         {
-            VersionGratuita version = new VersionGratuita();
+            VersionGratuita version = new VersionGratuita(false);
             this.Hide();
             version.Show();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
         }
 
         //private void txtPass_TextChanged(object sender, EventArgs e)
