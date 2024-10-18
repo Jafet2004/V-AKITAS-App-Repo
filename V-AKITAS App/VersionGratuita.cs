@@ -23,7 +23,7 @@ namespace V_AKITAS_App
 
         private void CargarTable()
         {
-            string query = "SELECT * FROM [Tipos de Harinas] WHERE [Muestra de Grano] = @Muestra";
+            string query = "SELECT * FROM [Recursos Alimentarios] WHERE [Muestra de Grano] = @Muestra";
             SqlDataAdapter da = new SqlDataAdapter(query, conn);
             da.SelectCommand.Parameters.AddWithValue("@Muestra", txtMuestra.Text);
             DataTable dt = new DataTable();

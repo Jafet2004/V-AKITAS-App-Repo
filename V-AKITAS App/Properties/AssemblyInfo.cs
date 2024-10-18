@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
 [assembly: AssemblyTitle("V-AKITAS App")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Aplicativo para alimentación bovina")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("V-AKITAS App")]

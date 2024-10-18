@@ -68,5 +68,10 @@ namespace V_AKITAS_App
             this.Hide();
             IS.Show();
         }
+
+        private void Premiun_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

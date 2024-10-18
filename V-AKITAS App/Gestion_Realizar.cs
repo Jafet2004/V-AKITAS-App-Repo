@@ -34,7 +34,9 @@ namespace V_AKITAS_App
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            InfoV_akitas info = new InfoV_akitas();
+            this.Hide();
+            info.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)

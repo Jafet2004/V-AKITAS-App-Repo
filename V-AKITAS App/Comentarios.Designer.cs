@@ -82,6 +82,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(248)))), ((int)(((byte)(234)))));
             this.ClientSize = new System.Drawing.Size(512, 247);
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.txtMensaje);
